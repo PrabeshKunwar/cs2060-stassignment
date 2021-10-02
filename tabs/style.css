@@ -1,0 +1,93 @@
+body {
+    background-image: url('valorant.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title1 {
+    position: absolute;
+    left: 0%;
+    top: 4em;
+    z-index: 1;
+    width: 24%;
+    height: 6em;
+}
+
+.title2 {
+    position: absolute;
+    left: 25%;
+    top: 4em;
+    z-index: 1;
+    width: 24%;
+    height: 6em;
+}
+
+.title3 {
+    position: absolute;
+    left: 50%;
+    top: 4em;
+    z-index: 1;
+    width: 24%;
+    height: 6em;
+}
+
+.title4 {
+    position: absolute;
+    left: 75%;
+    top: 4em;
+    z-index: 1;
+    width: 24%;
+    height: 6em;
+}
+
+.titleText1 {
+    position: absolute;
+    font-size: 3em;
+    font-family: 'Monotype Corsiva';
+    text-align: center;
+    color: yellowgreen;
+    width: 24%;
+    top: 1em;
+    left: 0%;
+    z-index: 2;
+}
+
+.titleText2 {
+    position: absolute;
+    font-size: 3em;
+    font-family: 'Monotype Corsiva';
+    color: yellowgreen;
+    width: 24%;
+    top: 1em;
+    left: 25%;
+    text-align: center;
+    z-index: 2;
+}
+
+.titleText3 {
+    position: absolute;
+    font-size: 3em;
+    font-family: 'Monotype Corsiva';
+    color: yellowgreen;
+    width: 24%;
+    top: 1em;
+    left: 50%;
+    text-align: center;
+    z-index: 2;
+}
+
+.titleText4 {
+    position: absolute;
+    font-size: 3em;
+    font-family: 'Monotype Corsiva';
+    color: yellowgreen;
+    width: 24%;
+    top: 1em;
+    left: 75%;
+    text-align: center;
+    z-index: 2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
