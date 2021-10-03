@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<!-- Tables are used -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Feedback form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+        .text {
+            text-align: justify;
+            font-family: 'Monotype Corsiva';
+            font-size: 1.5em;
+            color: black;
+            text-shadow: 0.2em 0.2em 0.2em blue;
+        }
+
+        .title {
+            font-family: 'ROG Fonts','Arial';
+            text-align: center;
+            font-size: 2.5em;
+            text-decoration: underline;
+            color: red;
+            text-shadow: 0.3em 0.3em 0.3em blue;
+        }
+
+        .name {
+            font-family: 'ROG Fonts','Arial';
+            text-align: center;
+            font-size: 2em;
+            text-decoration: underline;
+            color: yellow;
+            text-shadow: 0.2em 0.2em 0.2em blue;
+        }
+    </style>
+</head>
+<body class="text">
+    <h1 class="title">Feedback Form</h1>
+    <form method="post" action="http://node122.peicloud.ca/" autocomplete="on">
+        <p>
+            <label>
+                First Name:
+                <input type="text" placeholder="First name" name="firstName" required /> (First name)
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Last Name:
+                <input type="text" placeholder="Last name" name="lastName" /> (Last name)
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Email:
+                <input type="email" placeholder="name@domain.com" name="email" required /> (name@domain.com)
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Valorant ID:
+                <input name="valId" type="password" size="25">
+            </label>
+        </p>
+
+        <p>
+            <label for="txtList">
+                Favorite Agent
+                <input type="text" id="txtList" name="favAgent" placeholder="Select a agent" list="agents" />
+                <datalist id="agents">
+                    <option value="Sova">
+                    <option value="Omen">
+                    <option value="Sage">
+                    <option value="Reyna">
+                    <option value="Jett">
+                    <option value="Raze">
+                    <option value="Yoru">
+                    <option value="Skye">
+                    <option value="Astra">
+                    <option value="Phoenix">
+                    <option value="Breach">
+                    <option value="Brimstone">
+                    <option value="Cypher">
+                    <option value="Viper">
+                    <option value="Killjoy">
+                    <option value="Kay/o">
+                </datalist>
+            </label>
+        </p>
+
+        <p>
+            Map you like:<br>
+
+            <label>
+                Ascent
+                <input name="Mapliked" type="radio" value="ascent">
+            </label>
+            <label>
+                Bind
+                <input name="Mapliked" type="radio" value="Bind">
+            </label>
+            <label>
+                Split
+                <input name="Mapliked" type="radio" value="split">
+            </label>
+            <label>
+                Heaven
+                <input name="MapLiked" type="radio" value="heaven">
+            </label>
+            <label>
+                Icebox
+                <input name="Mapliked" type="radio" value="Icebox">
+            </label>
+            <label>
+                Breeze
+                <input name="Mapliked" type="radio" value="Breeze">
+            </label>
+            <label>
+                Fracture
+                <input name="Mapliked" type="radio" value="Fracture">
+            </label>
+        </p>
+        
+        <p>
+            Weapons you prefer using:<br>
+            <label>
+                Classic
+                <input name="weapons" type="checkbox" value="classic">
+            </label>
+            <label>
+                Shorty
+                <input name="weapons" type="checkbox" value="shorty">
+            </label>
+            <label>
+                Ghost
+                <input name="weapons" type="checkbox" value="ghost">
+            </label>
+            <label>
+                Sheriff
+                <input name="weapons" type="checkbox" value="sheriff">
+            </label>
+            <label>
+                Frenzy
+                <input name="weapons" type="checkbox" value="fenzy"><br>
+            </label>
+            <label>
+                Bucky
+                <input name="weapons" type="checkbox" value="bucky">
+            </label>
+            <label>
+                Judge
+                <input name="weapons" type="checkbox" value="judge"><br>
+            </label>
+            <label>
+                Stinger
+                <input name="weapons" type="checkbox" value="stinger">
+            </label>
+            <label>
+                Spectre
+                <input name="weapons" type="checkbox" value="Spectre">
+            </label><br>
+            <label>
+                Bulldog
+                <input name="weapons" type="checkbox" value="Bulldog">
+            </label>
+            <label>
+                Gurdian
+                <input name="weapons" type="checkbox" value="gurdian">
+            </label>
+            <label>
+                Vandal
+                <input name="weapons" type="checkbox" value="vandal">
+            </label>
+            <label>
+                Phantom
+                <input name="weapons" type="checkbox" value="phantom">
+            </label><br>
+            <label>
+                Marshal
+                <input name="weapons" type="checkbox" value="marshal">
+            </label>
+            <label>
+                Operator
+                <input name="weapons" type="checkbox" value="operator">
+            </label><br>
+            <label>
+                Aires
+                <input name="weapons" type="checkbox" value="aires">
+            </label>
+            <label>
+                Odin
+                <input name="weapons" type="checkbox" value="odin">
+            </label>
+            
+        </p>
+
+        <p>
+            <label>
+                How was your experience with our page?
+                 <input type="range"
+                         min="0"
+                         max="20"
+                         value="10" /> 
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Please leave your comments<br>
+                <textarea name="comments"
+                          rows="4" cols="36">Enter comments here.</textarea>
+            </label>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Clear" />
+        </p>
+    </form>
+</body>
+</html>
