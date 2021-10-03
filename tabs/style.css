@@ -7,9 +7,9 @@ body {
 .title1 {
     position: absolute;
     top: 1em;
-    left: 0%;
+    left: 0vw;
     z-index: 1;
-    width: 24%;
+    width: 24vw;
     height: 6em;
     box-shadow: 0.5em 0.5em 0.5em yellow;
 }
@@ -17,9 +17,9 @@ body {
 .title2 {
     position: absolute;
     top: 1em;
-    left: 25%;
+    left: 25vw;
     z-index: 1;
-    width: 24%;
+    width: 24vw;
     height: 6em;
     box-shadow: 0.5em 0.5em 0.5em yellow;
 }
@@ -27,9 +27,9 @@ body {
 .title3 {
     position: absolute;
     top: 1em;
-    left: 50%;
+    left: 50vw;
     z-index: 1;
-    width: 24%;
+    width: 24vw;
     height: 6em;
     box-shadow: 0.5em 0.5em 0.5em yellow;
 }
@@ -37,9 +37,9 @@ body {
 .title4 {
     position: absolute;
     top: 1em;
-    left: 75%;
+    left: 75vw;
     z-index: 1;
-    width: 24%;
+    width: 24vw;
     height: 6em;
     box-shadow: 0.5em 0.5em 0.5em yellow;
 }
@@ -51,8 +51,8 @@ body {
     font-family: 'Monotype Corsiva';
     text-align: center;
     color: yellowgreen;
-    width: 24%;
-    left: 0%;
+    width: 24vw;
+    left: 0vw;
     z-index: 2;
 }
 
@@ -62,8 +62,8 @@ body {
     font-size: 3em;
     font-family: 'Monotype Corsiva';
     color: yellowgreen;
-    width: 24%;
-    left: 25%;
+    width: 24vw;
+    left: 25vw;
     text-align: center;
     z-index: 2;
 }
@@ -74,8 +74,8 @@ body {
     font-size: 3em;
     font-family: 'Monotype Corsiva';
     color: yellowgreen;
-    width: 24%;
-    left: 50%;
+    width: 24vw;
+    left: 50vw;
     text-align: center;
     z-index: 2;
 }
@@ -86,8 +86,8 @@ body {
     font-size: 3em;
     font-family: 'Monotype Corsiva';
     color: yellowgreen;
-    width: 24%;
-    left: 75%;
+    width: 24vw;
+    left: 75vw;
     text-align: center;
     z-index: 2;
 }
@@ -99,7 +99,6 @@ a:hover {
 
 em {
     font-family: Centaur, 'Bernard MT', Chiller;
-    font-size: 1.5em;
     text-align: center;
 }
 

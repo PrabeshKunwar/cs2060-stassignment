@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!-- Agents used for game play -->
+<!-- Tables are used -->
 <html>
 <head>
     <meta charset="utf-8">
@@ -17,11 +17,21 @@
         .title {
             font-family: 'ROG Fonts','Arial';
             align-content: center;
-            top: 3em;
-            font-size: 2em;
+            font-size: 2.5em;
             text-decoration: underline;
             color: red;
-            text-shadow: 0.5em 0.5em 0.5em blue;
+            text-shadow: 0.3em 0.3em 0.3em blue;
+        }
+        .name {
+            font-family: 'ROG Fonts','Arial';
+            text-align:center;
+            font-size: 2em;
+            text-decoration: underline;
+            color: yellow;
+            text-shadow: 0.2em 0.2em 0.2em blue;
+        }
+        img {
+            width:48vw;
         }
     </style>
 </head>
@@ -33,8 +43,117 @@
     <a href="maps.html"><img src="logo.jpg" class="title4" alt="maps"><h1 class="titleText4"><b>Maps</b></h1></a>
 
 
-    <table border="1" align="center" draggable="true" style="position: relative; top:5em">
-        <thead></thead>
+    <table border="1" align="center" draggable="true"  width=100% style="position: relative; top:8em">
+        <thead>
+            <tr><th colspan="2" class="title" id="begin">Agents</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width=48%><img src="agents/sova.jpg"></td>
+                <td rowspan="2" width=48% class="text">Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</td>
+            </tr>
+            <tr><td width=48% class="name">Sova</td></tr>
+
+            <tr>
+                <td rowspan="2" width=48% class="text">A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</td>
+                <td width=48%><img src="agents/omen.jpg"></td>
+            </tr>
+            <tr><td width=48% class="name">Omen</td></tr>
+
+
+            <tr>
+                <td width=48%><img src="agents/sage.jpg"></td>
+                <td rowspan="2" width=48% class="text">The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.</td>
+            </tr>
+            <tr><td width=48% class="name">Sage</td></tr>
+
+            <tr>
+                <td rowspan="2" width=48% class="text">Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.</td>
+                <td width=48%><img src="agents/reyna.jpg"></td>
+            </tr>
+            <tr><td width=48% class="name">Reyna</td></tr>
+
+
+            <tr>
+                <td width=48%><img src="agents/kj.jpg"></td>
+                <td rowspan="2" width=48% class="text">The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.</td>
+            </tr>
+            <tr><td width=48% class="name">Killjoy</td></tr>
+
+            <tr>
+                <td rowspan="2" width=48% class="text">The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</td>
+                <td width=48%><img src="agents/cypher.jpg"></td>
+            </tr>
+            <tr><td width=48% class="name">Cypher</td></tr>
+
+
+            <tr>
+                <td width=48%><img src="agents/kayo.jpg"></td>
+                <td rowspan="2" width=48% class="text">KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities cripples his opponents' capacity to fight back, securing him and his allies the ultimate edge.</td>
+            </tr>
+            <tr><td width=48% class="name">Kay/o</td></tr>
+
+            <tr>
+                <td rowspan="2" width=48% class="text">Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.</td>
+                <td width=48%><img src="agents/yoru.jpg"></td>
+            </tr>
+            <tr><td width=48% class="name">Yoru</td></tr>
+
+
+            <tr>
+                <td width=48%><img src="agents/brim.jpg"></td>
+                <td rowspan="2" width=48% class="text">Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.</td>
+            </tr>
+            <tr><td width=48% class="name">Brimstone</td></tr>
+
+            <tr>
+                <td rowspan="2" width=48% class="text">Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.</td>
+                <td width=48%><img src="agents/breach.jpg"></td>
+            </tr>
+            <tr><td width=48% class="name">Breach</td></tr>
+
+
+            <tr>
+                <td width=48%><img src="agents/viper.jpg"></td>
+                <td rowspan="2" width=48% class="text">The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy's vision. If the toxins don't kill her prey, her mind games surely will.</td>
+            </tr>
+            <tr><td width=48% class="name">viper</td></tr>
+
+            <tr>
+                <td rowspan="2" width=48% class="text">Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.</td>
+                <td width=48%><img src="agents/phoenix.jpg"></td>
+            </tr>
+            <tr><td width=48% class="name">Phoenix</td></tr>
+
+
+            <tr>
+                <td width=48%><img src="agents/raze.jpg"></td>
+                <td rowspan="2" width=48% class="text">Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”</td>
+            </tr>
+            <tr><td width=48% class="name">Raze</td></tr>
+
+            <tr>
+                <td rowspan="2" width=48% class="text">Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.</td>
+                <td width=48%><img src="agents/jett.jpg"></td>
+            </tr>
+            <tr><td width=48% class="name">Jett</td></tr>
+
+
+            <tr>
+                <td width=48%><img src="agents/astra.jpg"></td>
+                <td rowspan="2" width=48% class="text">Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.</td>
+            </tr>
+            <tr><td width=48% class="name">Astra</td></tr>
+
+            <tr>
+                <td rowspan="2" width=48% class="text">Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye’s side.</td>
+                <td width=48%><img src="agents/skye.jpg"></td>
+            </tr>
+            <tr><td width=48% class="name">Skye</td></tr>
+
+            <tr><td><p class="text"><a href="#begin">Go to top</a></p></td></tr>
+        </tbody>
+        <tfoot><tr><td class="text">Feel free to <a href="mailto:pnkunwar@upei.ca">Contact Us</a></td><td class="text">Always happy for your <a href="feedback.html">Feedback</a></td></tr></tfoot>
     </table>
 </body>
 </html>
